@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <link rel="stylesheet" href="stylee.css"/>
+        <title>SignUp</title>
+    </head>
+    <body>
+        <nav class="header__navbar">
+            <div class="navbar__logobox">
+                <img class="logo-img" src="../images/logo-yellow.png" alt="Logo" />
+            </div>
+            <ul class="navbar__navbar-list">
+                <li class="navbar-list__item">
+                    <a href="#" class="navbar-link active">Home</a>
+                </li>
+                <li class="navbar-list__item">
+                    <a href="#" class="navbar-link">Services</a>
+                </li>
+                <li class="navbar-list__item">
+                    <a href="#" class="navbar-link">Companies</a>
+                </li>
+                <li class="navbar-list__item">
+                    <a href="#" class="navbar-link">Freelancers</a>
+                </li>
+                <li class="navbar-list__item">
+                    <a href="#" class="navbar-link">Bootcamp</a>
+                </li>
+                <li class="navbar-list__item">
+                    <a href="#" class="navbar-link">contact</a>
+                </li>
+            </ul>
+            <div class="navbar__buttons">
+                <a href="LoginPage.html" class="navbar-buttons login">Login</a>
+            </div>
+        </nav>
+    <div class="SignUp-container">
+        <div class="SignUp__content">
+            <h4>Sign Up With Email!</h4>
+            <form action="" class="SignUp__form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder=" Email" />
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder=" Password" />
+                </div>
+                <div class="Password-Note">
+                    <p>8-20 characters</p>
+                    <p>Must be a combination of at least two of the following: letters, numbers, and punctuation.</p>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder=" Confirm Password" />
+                </div>
+                <div class="form-group">
+                    <label>Date of Birth:</label><br>
+                    <input type="text" id="dob-day" name="dob-day" min="1" max="31" placeholder=" DD" required>
+                    <input type="text" id="dob-month" name="dob-month" min="1" max="12" placeholder=" MM" required>
+                    <input type="text" id="dob-year" name="dob-year" placeholder=" YYYY" required>
+                </div>
+            </form>   
+            <button class="SignUpPage__button">SignUp</button><br> 
+            <div class="Signup-Login">
+                <p>Already have an account?</p>
+                <a class="Signup-Login-link" href="LoginPage.html">Login</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img class="footer-logo" src="../images/logo-yellow.png">
+        </div>
+    </footer>
+    </body>
+</html>         
